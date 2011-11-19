@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing the Yubr Programming Language
+comments: true
 ---
 
 God my oh!
