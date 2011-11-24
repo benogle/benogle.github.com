@@ -5,7 +5,7 @@ html, body{
 body {
   background: transparent url(/images/project_papper.png) repeat;
 }
-#wrapper{
+.wrapper{
   -moz-border-radius: 3px;
   -moz-box-shadow: 0px 0px 5px #888;
   background: #fff;
@@ -23,18 +23,22 @@ select{
   font-size: 10pt;
 }
 
-#wrapper{
+.wrapper{
   width: 700px;
   padding: 0px 20px;
   margin: 0 auto;
 }
 
-#wrapper h1{
+.wrapper h1{
   font-size: 2.4em;
 }
 
+/* Index */
+
+/* POSTS */
+
 #post { position: relative; }
-#post a, #dsq-account-dropdown a {
+#index a, #post a, #dsq-account-dropdown a {
   color: #000;
   text-decoration: none;
   background: #f7fa85;
@@ -42,6 +46,7 @@ select{
   -moz-border-radius: 3px;
 }
 #post a:hover,
+#index a:hover,
 #dsq-account-dropdown a:hover {
   text-decoration: underline;
 }

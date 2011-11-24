@@ -5,21 +5,23 @@ description: Ben Ogle's site! He builds things.
 keywords: Ben Ogle, programming, javascript, python
 ---
 
-<h1>Blog</h1>
+<div id="index" class="wrapper">
+  <h1>Hi. I'm Ben Ogle.</h1>
 
-<ul class="posts">
-{% for post in site.posts %}
-  {% unless post.archived %}
-	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endunless %}
-{% endfor %}
-</ul>
+  <p>
+    I write code in San Francisco. <a href="/about.html">Read more about me &rarr;</a>
+  </p>
 
-<a href="#">All posts &rarr;</a>
+  <h2><a href="#">Posts</a></h2>
 
-<h1><a href="/projects.html">Projects</a></h1>
-<h1><a href="/about.html">About</a></h1>
+  <ul class="posts">
+  {% for post in site.posts %}
+    {% unless post.archived %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+  </ul>
 
-<div>
-  Ben Ogle writes code in San Francisco.
+  <h2><a href="/projects.html">Projects</a></h2>
+  <h2><a href="http://github.com/benogle">Github</a></h2>
 </div>
