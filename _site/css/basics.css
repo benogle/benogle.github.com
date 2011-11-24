@@ -1,0 +1,23 @@
+html, body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p, ul, li{
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  background: #f7fa85;
+  padding: 1px 3px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#wrapper{
+  width: 700px;
+  margin: 0 auto;
+}

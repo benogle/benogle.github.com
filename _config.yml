@@ -1,5 +1,5 @@
 safe:        false
-auto:        false
+auto:        true
 server:      false
 server_port: 4000
 baseurl:    /
@@ -10,7 +10,7 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    false
+pygments:    true
 markdown:    maruku
 permalink:   date
 exclude:     boglesite.komodoproject

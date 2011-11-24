@@ -8,8 +8,10 @@ keywords: Ben Ogle, programming, javascript, python
 <h1>Blog</h1>
 
 <ul class="posts">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
+  {% unless post.archived %}
 	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endunless %}
 {% endfor %}
 </ul>
 
