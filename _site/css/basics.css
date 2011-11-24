@@ -16,6 +16,10 @@ p, ul, li{
   line-height: 1.6em;
   font-weight: 300;
 }
+select{
+  font-weight: 300;
+  font-size: 10pt;
+}
 
 #wrapper{
   width: 700px;
@@ -27,16 +31,23 @@ p, ul, li{
   font-size: 2.4em;
 }
 
-#post a {
+#post a, #dsq-account-dropdown a {
   color: #000;
   text-decoration: none;
   background: #f7fa85;
   padding: 1px 3px;
 }
-#post a:hover {
+#post a:hover,
+#dsq-account-dropdown a:hover {
   text-decoration: underline;
 }
 
 #comments{
   padding: 1px 0;
 }
+
+
+#dsq-footer{
+  display: none;
+}
+#dsq-reply
