@@ -1,6 +1,6 @@
 ---
 layout: post
-title: scriptb, organizing your JavaScript/CSS into modules
+title: scriptb; organizing your JavaScript/CSS into modules
 status: publish
 type: post
 published: true
@@ -11,26 +11,31 @@ comments: true
 
 [Get scriptb from github](https://github.com/benogle/scriptb)
 
-Sometimes organizing frontend assets can be pretty -hard- sloppy. Lets say you have a bunch of
+Sometimes organizing frontend assets can be pretty hard. Lets say you have a bunch of
 core js libraries you want to include on every page, but on the admin pages of your site, you
 also want to include another collection of JavaScript and CSS files. Also, you want to
 minify/compress your code, run with uncompressed files in dev, compressed files in production,
 and not have to think about it.
 
-I've written [scriptb](https://github.com/benogle/scriptb) specifically for this situation.
+Rails and [django](http://django-pipeline.readthedocs.org/en/latest/index.html) both the asset
+pipeline. We're still on pylons at adroll and we didn't want to retrofit the django solution.
+
+So I wrote [scriptb](https://github.com/benogle/scriptb).
 scriptb is a small wrapper around The Goog's closure compiler and Yahoo's YUI compressor that
-accepts a configuration file explaining how to organize your modules. To solve page inclusion
+accepts a configuration file explaining how to organize your modules. To solve module inclusion
 depending on dev or production, the scriptb configuration file can be pretty tightly integrated
 into your web framework. I'll show you integration in a second. First, the configuration.
 
 ## Scriptb Coniguration
+
+With the configuration file, you explicitly specify which files are in which modules, and their
+ordering.
 
 Create a python file somewhere in your project. `scriptb` works with python only as it loads a
 python configuration file. This config file needs to be somewhere on the python path. Format is
 as follows.
 
 {% highlight python %}
-#!/usr/bin/env python
 import os
 
 d = os.path.dirname
@@ -180,7 +185,7 @@ Note that the previous code makes reference to `c.is_production`. In my base con
 a config param called `is_production` from the ini passed into paster and put it in
 `c.is_production`.
 
-And now, in my templates I can include that template and just call require(). YES.
+And now, in my templates I can include that template and just call require().
 
 {% highlight mako %}
 <%namespace name="r" file="/require.html"/>
@@ -189,14 +194,5 @@ And now, in my templates I can include that template and just call require(). YE
 ${r.require('core')}
 ...
 {% endhighlight %}
-
-That's it.
-
-## Conclusion
-
-Having the anatomy of my frontend asset modules specified in one place has been pretty huge for
-code cleanliness. I now break my css sheets up into logical chunks instead of having a
-monolithic mess, and I feel considerably better about having multiple external JavaScript files
-for complex sections of the site.
 
 Hope it is of some use to the rest of y'all.

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>scriptb, organizing your JavaScript/CSS into modules</title>
+  <title>scriptb; organizing your JavaScript/CSS into modules</title>
   <meta name="description" content="Organize your js into modules with scriptb in python." />
   <meta name="keywords" content="python, javascript, modules" />
 
@@ -19,19 +19,22 @@
 <body>
 
   <div id="wrapper">
-  <h1>scriptb, organizing your JavaScript/CSS into modules</h1>
+  <h1>scriptb; organizing your JavaScript/CSS into modules</h1>
   <div id="post">
   <p><a href='https://github.com/benogle/scriptb'>Get scriptb from github</a></p>
 
-<p>Sometimes organizing frontend assets can be pretty -hard- sloppy. Lets say you have a bunch of core js libraries you want to include on every page, but on the admin pages of your site, you also want to include another collection of JavaScript and CSS files. Also, you want to minify/compress your code, run with uncompressed files in dev, compressed files in production, and not have to think about it.</p>
+<p>Sometimes organizing frontend assets can be pretty hard. Lets say you have a bunch of core js libraries you want to include on every page, but on the admin pages of your site, you also want to include another collection of JavaScript and CSS files. Also, you want to minify/compress your code, run with uncompressed files in dev, compressed files in production, and not have to think about it.</p>
 
-<p>I&#8217;ve written <a href='https://github.com/benogle/scriptb'>scriptb</a> specifically for this situation. scriptb is a small wrapper around The Goog&#8217;s closure compiler and Yahoo&#8217;s YUI compressor that accepts a configuration file explaining how to organize your modules. To solve page inclusion depending on dev or production, the scriptb configuration file can be pretty tightly integrated into your web framework. I&#8217;ll show you integration in a second. First, the configuration.</p>
+<p>Rails and <a href='http://django-pipeline.readthedocs.org/en/latest/index.html'>django</a> both the asset pipeline. We&#8217;re still on pylons at adroll and we didn&#8217;t want to retrofit the django solution.</p>
+
+<p>So I wrote <a href='https://github.com/benogle/scriptb'>scriptb</a>. scriptb is a small wrapper around The Goog&#8217;s closure compiler and Yahoo&#8217;s YUI compressor that accepts a configuration file explaining how to organize your modules. To solve module inclusion depending on dev or production, the scriptb configuration file can be pretty tightly integrated into your web framework. I&#8217;ll show you integration in a second. First, the configuration.</p>
 
 <h2 id='scriptb_coniguration'>Scriptb Coniguration</h2>
 
+<p>With the configuration file, you explicitly specify which files are in which modules, and their ordering.</p>
+
 <p>Create a python file somewhere in your project. <code>scriptb</code> works with python only as it loads a python configuration file. This config file needs to be somewhere on the python path. Format is as follows.</p>
-<div class='highlight'><pre><code class='python'><span class='c'>#!/usr/bin/env python</span>
-<span class='kn'>import</span> <span class='nn'>os</span>
+<div class='highlight'><pre><code class='python'><span class='kn'>import</span> <span class='nn'>os</span>
 
 <span class='n'>d</span> <span class='o'>=</span> <span class='n'>os</span><span class='o'>.</span><span class='n'>path</span><span class='o'>.</span><span class='n'>dirname</span>
 
@@ -165,7 +168,7 @@ scriptb.py -m myapp.mymodules core
 </div>
 <p>Note that the previous code makes reference to <code>c.is_production</code>. In my base controller, I read a config param called <code>is_production</code> from the ini passed into paster and put it in <code>c.is_production</code>.</p>
 
-<p>And now, in my templates I can include that template and just call require(). YES.</p>
+<p>And now, in my templates I can include that template and just call require().</p>
 <div class='highlight'><pre><code class='mako'><span class='cp'>&lt;%</span><span class='nb'>namespace</span> <span class='na'>name=</span><span class='s'>&quot;r&quot;</span> <span class='na'>file=</span><span class='s'>&quot;/require.html&quot;</span><span class='cp'>/&gt;</span><span class='x' />
 
 <span class='x'>... somewhere in the header</span>
@@ -173,28 +176,27 @@ scriptb.py -m myapp.mymodules core
 <span class='x'>...</span>
 </code></pre>
 </div>
-<p>That&#8217;s it.</p>
-
-<h2 id='conclusion'>Conclusion</h2>
-
-<p>Having the anatomy of my frontend asset modules specified in one place has been pretty huge for code cleanliness. I now break my css sheets up into logical chunks instead of having a monolithic mess, and I feel considerably better about having multiple external JavaScript files for complex sections of the site.</p>
-
 <p>Hope it is of some use to the rest of y&#8217;all.</p>
+
+    <p><a href="/">&larr; Back to BenOgle.com</a></p>
   </div>
 
   
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'benogle-test'; // required: replace example with your forum shortname
+    <div id="comments">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'benogle-test'; // required: replace example with your forum shortname
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+    </div>
   
 
 </div>
