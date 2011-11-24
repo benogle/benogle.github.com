@@ -21,7 +21,9 @@
   <div id="wrapper">
   <h1>Use Wordpress custom fields for your meta tags</h1>
   <div id="post">
-  Today I realized my posts needed proper jargon in the description and keywords meta tags for uber SEO magic. What is the 'right' way to do this in WordPress? I found a bunch of plugins and other complicated methods, but I thought there should be an easy way with custom fields. I ended up on a "forum post":http://wordpress.org/support/topic/186372, which was exactly what I was looking for. You just create a couple custom fields: description and keywords, then print out the values of the fields in the header. So I dumped this into my theme's header.php:
+    <div class="date">Apr 12 2009</div>
+
+    Today I realized my posts needed proper jargon in the description and keywords meta tags for uber SEO magic. What is the 'right' way to do this in WordPress? I found a bunch of plugins and other complicated methods, but I thought there should be an easy way with custom fields. I ended up on a "forum post":http://wordpress.org/support/topic/186372, which was exactly what I was looking for. You just create a couple custom fields: description and keywords, then print out the values of the fields in the header. So I dumped this into my theme's header.php:
 
 <pre class="command">
 <meta name="description" content="<?php if(get_post_meta($post->ID, "description", true) !='' ) echo get_post_meta($post->ID, "description", true); else bloginfo('description');?>" />

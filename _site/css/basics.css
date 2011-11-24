@@ -33,6 +33,7 @@ select{
   font-size: 2.4em;
 }
 
+#post { position: relative; }
 #post a, #dsq-account-dropdown a {
   color: #000;
   text-decoration: none;
@@ -43,6 +44,16 @@ select{
 #post a:hover,
 #dsq-account-dropdown a:hover {
   text-decoration: underline;
+}
+
+#post .date {
+  color: #CCCCCC;
+  font-size: 10pt;
+  left: -170px;
+  line-height: 26px;
+  position: absolute;
+  text-align: right;
+  width: 150px;
 }
 
 #comments{
