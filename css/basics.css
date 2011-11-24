@@ -12,9 +12,11 @@ body {
 }
 */
 
+p, ul, li, div{
+  font-weight: 300;
+}
 p, ul, li{
   line-height: 1.6em;
-  font-weight: 300;
 }
 select{
   font-weight: 300;
@@ -35,7 +37,8 @@ select{
   color: #000;
   text-decoration: none;
   background: #f7fa85;
-  padding: 1px 3px;
+  padding: 1px 4px;
+  -moz-border-radius: 3px;
 }
 #post a:hover,
 #dsq-account-dropdown a:hover {

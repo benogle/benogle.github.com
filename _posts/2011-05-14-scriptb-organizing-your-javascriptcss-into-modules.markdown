@@ -100,8 +100,8 @@ All set. Let's run it.
 
 ## Running scriptb
 
-First, you'll need to install java, the
-[Closure Compiler](http://code.google.com/closure/compiler/)
+First, you'll need to install java, google's 
+[Closure Compiler](http://code.google.com/closure/compiler/), and
 [YUI Compressor](http://yuilibrary.com/downloads/#yuicompressor).
 Then you need to create some environment variables for their paths:
 
