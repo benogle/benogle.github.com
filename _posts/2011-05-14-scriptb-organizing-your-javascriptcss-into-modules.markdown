@@ -1,6 +1,6 @@
 ---
 layout: post
-title: scriptb; organizing your JavaScript/CSS into modules
+title: Scriptb; organizing your JavaScript/CSS into modules
 status: publish
 type: post
 published: true
@@ -17,8 +17,8 @@ also want to include another collection of JavaScript and CSS files. Also, you w
 minify/compress your code, run with uncompressed files in dev, compressed files in production,
 and not have to think about it.
 
-Rails and [django](http://django-pipeline.readthedocs.org/en/latest/index.html) both the asset
-pipeline. We're still on pylons at adroll and we didn't want to retrofit the django solution.
+Rails and django both the asset pipeline. We're still on pylons at adroll and we didn't want to
+retrofit the [django solution](http://django-pipeline.readthedocs.org/en/latest/index.html).
 
 So I wrote [scriptb](https://github.com/benogle/scriptb).
 scriptb is a small wrapper around The Goog's closure compiler and Yahoo's YUI compressor that
@@ -100,7 +100,7 @@ All set. Let's run it.
 
 ## Running scriptb
 
-First, you'll need to install java, google's 
+First, you'll need to install java, google's
 [Closure Compiler](http://code.google.com/closure/compiler/), and
 [YUI Compressor](http://yuilibrary.com/downloads/#yuicompressor).
 Then you need to create some environment variables for their paths:

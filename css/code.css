@@ -1,7 +1,10 @@
-p>code{
+p>code, li>code{
   font-size: 10pt;
   background: #eee;
   padding: 2px 4px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .highlight {
@@ -12,9 +15,12 @@ p>code{
   -webkit-border-radius: 3px;
   border-radius: 3px;
   border-left: 10px solid #dde2e2;
+  overflow: auto;
 }
 .highlight pre {
   padding: 10px 15px;
+  margin: 0;
+  white-space: pre;
 }
 
 .highlight .p { font-weight: bold; font-size: 11pt; }

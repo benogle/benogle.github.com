@@ -8,34 +8,35 @@ archived: true
 description: A technique for making a progress bar from three divs, one image, and a little CSS. Check it out!
 keywords: progress bar, css, javascript, shiny, button
 ---
+
 <style type="text/css">
 .meter-wrap{
-margin: 0 auto 1em auto;
-    position: relative;
+  margin: 0 auto 1em auto;
+  position: relative;
 }
 
 .meter-wrap, .meter-value, .meter-text {
-    /* The width and height of your image */
-    width: 155px; height: 30px;
+  /* The width and height of your image */
+  width: 155px; height: 30px;
 }
-            .meter-wrap, .meter-value{
-
-                background: #bdbdbd url(/wp-content/uploads/2009/06/meter-outline.png) top left no-repeat;
-            }
+.meter-wrap, .meter-value{
+  background: #bdbdbd url(/images/meter-outline.png) top left no-repeat;
+}
 
 .meter-text {
-    position: absolute;
-    top:0; left:0;
+  position: absolute;
+  top:0; left:0;
 
-    padding-top: 5px;
+  padding-top: 5px;
 
-    color: #fff;
-    text-align: center;
-    width: 100%;
+  color: #fff;
+  text-align: center;
+  width: 100%;
 }
 </style>
 
-I've recently come up with a simple way to make a decent looking, css colorable progress bar/meter out of a couple divs and an image. This is what mine looks like:
+I've recently come up with a simple way to make a decent looking, css colorable progress
+bar/meter out of a couple divs and an image. This is what mine looks like:
 
 <div class="meter-wrap">
     <div class="meter-value" style="background-color: #4DA4F3; width: 40%;">
@@ -45,15 +46,17 @@ I've recently come up with a simple way to make a decent looking, css colorable 
     </div>
 </div>
 
-<!--more-->
+Basically, you have three divs: a container for the grey, non 'populated' section, a div for the
+colored value, and a div for the text. Both the container and the value div have your image as a
+background. This image uses mad awesome png transparency to show some of the div's background
+color through.
 
-Basically, you have three divs: a container for the grey, non 'populated' section, a div for the colored value, and a div for the text. Both the container and the value div have your image as a background. This image uses mad awesome png transparency to show some of the div's background color through.
-
-h3. HTML
+HTML
+----
 
 The HTML is simple:
 
-<pre class="prettyprint">
+{% highlight html %}
 <div class="meter-wrap">
     <div class="meter-value" style="background-color: #0a0; width: 40%;">
         <div class="meter-text">
@@ -61,15 +64,17 @@ The HTML is simple:
         </div>
     </div>
 </div>
-</pre>
+{% endhighlight %}
 
-Notice the style attribute in the .meter-value div. The background color is the color of the progress bar, and the width is set to the percentage of progress. Easy peasy.
+Notice the style attribute in the .meter-value div. The background color is the color of the
+progress bar, and the width is set to the percentage of progress. Easy peasy.
 
-h3. CSS
+CSS
+----
 
 Oh yes, in all of its glory:
 
-<pre class="prettyprint">
+{% highlight css %}
 .meter-wrap{
     position: relative;
 }
@@ -93,17 +98,22 @@ Oh yes, in all of its glory:
     text-align: center;
     width: 100%;
 }
-</pre>
+{% endhighlight %}
 
-h3. The Image
+The Image
+---------
 
-Here is my image. I've placed it on a colored background so you can see the corners. It simply has completely opaque white corners, and uses a gradient for the center that goes from transparent white to completely transparent. An image like this is very easy to construct in a vector drawing application such as "Inkscape":http://www.inkscape.org/ .
+Here is my image. I've placed it on a colored background so you can see the corners. It simply
+has completely opaque white corners, and uses a gradient for the center that goes from
+transparent white to completely transparent. An image like this is very easy to construct in a
+vector drawing application such as [Inkscape](http://www.inkscape.org/).
 
-<p style="background: #4DA4F3; padding: 10px 0;">
-!{margin: 0 auto; display:block;}/wp-content/uploads/2009/06/meter-outline.png!
+<p style="background: #4DA4F3; padding: 10px 0; text-align:center;">
+  <img style="" src="/images/meter-outline.png" />
 </p>
 
-h3. Examples with JavaScript!
+Examples with JavaScript!
+-------------------------
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -157,7 +167,7 @@ $(document).ready(function(){
 
 Now, so you can see what it can do, I've put together a couple of super rad jQuery examples.
 
-Click the bar below to see the it go from 0% to 100%! Coooooool!
+Click the bar below to see the it go from 0% to 100%!
 
 <div id="meter-ex1" class="meter-wrap" style="cursor: pointer">
     <div class="meter-value" style="background-color: #4DA4F3; width: 0%;">

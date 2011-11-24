@@ -61,12 +61,7 @@ select{
   width: 150px;
 }
 
-#comments{
-  padding: 1px 0;
-}
+#comments{ padding: 1px 0; }
 
 
-#dsq-footer{
-  display: none;
-}
-#dsq-reply
+#dsq-footer{ display: none; }

@@ -1,0 +1,27 @@
+---
+layout: page
+title: Posts
+description: Ben Ogle's site! He builds things. Here are some posts
+keywords: Ben Ogle, programming, javascript, python
+---
+  <p>
+    All of them.
+  </p>
+
+  <h2>Current-ish</h2>
+  <div class="posts">
+  {% for post in site.posts %}
+    {% unless post.archived %}
+      <p><a href="{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date_to_string }}</span></p>
+    {% endunless %}
+  {% endfor %}
+  </div>
+
+  <h2>Old</h2>
+  <div class="posts">
+  {% for post in site.posts %}
+    {% if post.archived %}
+      <p><span class="date">{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></p>
+    {% endif %}
+  {% endfor %}
+  </div>
