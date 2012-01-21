@@ -6,18 +6,20 @@ type: post
 published: true
 description: Organize your js into modules with scriptb in python.
 keywords: python, javascript, modules
+redirects:
+- /projects/eddy
 comments: true
 ---
 
 [Get scriptb from github](https://github.com/benogle/scriptb)
 
 Sometimes organizing frontend assets can be pretty hard. Lets say you have a bunch of
-core js libraries you want to include on every page, but on the admin pages of your site, you
-also want to include another collection of JavaScript and CSS files. Also, you want to
-minify/compress your code, run with uncompressed files in dev, compressed files in production,
+core js libraries you want to include on every page. On the admin pages of your site, you
+also want to include another collection of JavaScript and CSS files. You want to
+minify/compress your code for production, run with uncompressed files in dev,
 and not have to think about it.
 
-Rails and django both the asset pipeline. We're still on pylons at adroll and we didn't want to
+Rails and django both have the asset pipeline. At AdRoll we're still on pylons and we didn't want to
 retrofit the [django solution](http://django-pipeline.readthedocs.org/en/latest/index.html).
 
 So I wrote [scriptb](https://github.com/benogle/scriptb).

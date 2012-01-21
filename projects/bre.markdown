@@ -3,6 +3,8 @@ layout: page
 title: BRE; Ben's ROM Editor
 description: Ben Ogle builds things. Here are his projects.
 keywords: Ben Ogle
+redirects:
+- /projects/bre
 ---
 
 BRE is a closed-source, freeware Engine Management System for Old Hondas written by me in C++,

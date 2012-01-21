@@ -14,6 +14,7 @@ pygments:    true
 markdown:    maruku
 permalink:   date
 exclude:     boglesite.komodoproject
+redirects:   true
 
 maruku:
   use_tex:    false
