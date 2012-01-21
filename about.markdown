@@ -11,3 +11,5 @@ epic website. But he secretly wishes he was a designer, musician, or artist so h
 beauty that makes you emote.
 
 Right now his main function is doing front-end work.
+
+You can <a href="mailto:human@benogle.com">email him</a>.
