@@ -7,6 +7,8 @@ published: true
 archived: true
 description: A technique for making a progress bar from three divs, one image, and a little CSS. Check it out!
 keywords: progress bar, css, javascript, shiny, button
+redirects:
+- /2009/06/16/simple-css-shiny-progress-bar-technique/
 ---
 
 <style type="text/css">

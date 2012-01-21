@@ -6,9 +6,9 @@ type: post
 published: true
 description: Organize your js into modules with scriptb in python.
 keywords: python, javascript, modules
-redirects:
-- /projects/eddy
 comments: true
+redirects:
+- /2011/05/14/scriptb-organizing-your-javascriptcss-into-modules
 ---
 
 [Get scriptb from github](https://github.com/benogle/scriptb)

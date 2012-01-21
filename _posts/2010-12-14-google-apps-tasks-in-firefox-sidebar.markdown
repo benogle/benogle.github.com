@@ -7,6 +7,8 @@ published: true
 description: Google apps in firefox sidebar
 keywords: firefox, google apps
 archived: true
+redirects:
+- /2010/12/14/google-apps-tasks-in-firefox-sidebar
 ---
 
 I use Gmail tasks like crazy. I used to have a window open next to firefox. Every time I would

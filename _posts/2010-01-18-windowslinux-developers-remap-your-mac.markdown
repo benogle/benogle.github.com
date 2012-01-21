@@ -7,6 +7,8 @@ published: true
 keywords: remap mac, mac keyboard, mac, linux to mac, apple, windows to mac
 description: A post detailing how to remap your mac keyboard to cater to your windows or linux bred habits in using the control key. Away with the command key!
 archived: true
+redirects:
+- /2010/01/18/windowslinux-developers-remap-your-mac/
 ---
 
 Up until recently, I have been writing code on windows and linux machines. All that has changed.

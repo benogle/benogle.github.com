@@ -7,6 +7,8 @@ published: true
 archived: true
 description: jQuery pong is a jQuery pong game plugin!
 keywords: jquery, pong, javascript, plugin
+redirects:
+- /2009/04/20/jquery-pong/
 ---
 
 I like jQuery. A lot. The only thing I like more than jQuery is the community of crazy plugin

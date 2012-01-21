@@ -7,6 +7,8 @@ published: true
 archived: true
 description: REMPL is a script that will push pls and m3u playlists to a remote WinAMP instance running the AjaxAMP plugin.
 keywords: rempl, ben ogle, winamp, ajaxamp, remote playlist, pls, m3u
+redirects:
+- /2009/04/10/rempl-push-playlists-to-remote-a-winamp-install/
 ---
 <p>Here's the question: how do I control a box running WinAMP over my little home network? I
 have a music server box in the spare bedroom running <a

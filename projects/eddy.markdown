@@ -3,8 +3,6 @@ layout: page
 title: Eddy The Civic
 description: Ben Ogle builds things. Here are his projects.
 keywords: Ben Ogle
-redirects:
-- /projects/eddy
 ---
 
 From 2002 until about 2006/07, I was really really really into hondas. Eddy was my favorite car.

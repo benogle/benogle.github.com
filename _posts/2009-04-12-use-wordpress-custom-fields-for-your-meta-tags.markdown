@@ -7,6 +7,8 @@ published: true
 archived: true
 description: A simple way to add the keywords and description meta tags to your WordPress theme using custom fields.
 keywords: meta tags, wordpress, custom fields, theme, keywords, description
+redirects:
+- /2009/04/12/use-wordpress-custom-fields-for-your-meta-tags/
 ---
 
 Today I realized my posts needed proper jargon in the description and keywords meta tags for

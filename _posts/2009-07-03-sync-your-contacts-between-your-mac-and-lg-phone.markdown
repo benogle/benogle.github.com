@@ -7,6 +7,8 @@ published: true
 archived: true
 description: Steps to sync your LG Verizon phone's contacts with your mac and iPhone. Specifically your LG-VX8350.
 keywords: mac, lg, verizon, vx8350, iphone, contacts, phonebook, address book, vcard
+redirects:
+- /2009/07/03/sync-your-contacts-between-your-mac-and-lg-phone/
 ---
 
 So I broke down and braved the iPhone 3GS line at Apple San Francisco after work yesterday. Once

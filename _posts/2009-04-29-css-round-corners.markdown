@@ -7,6 +7,8 @@ published: true
 archived: true
 description: CSS2 rounded corners.
 keywords: css, round corners, javascript, images
+redirects:
+- /2009/04/29/css-round-corners/
 ---
 
 **Note** from the present: you should [use CSS3](http://border-radius.com/) instead of this
