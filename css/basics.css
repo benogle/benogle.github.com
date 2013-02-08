@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6{
   font-family: "proxima-nova-alt-condensed", Helvetica, Arial, sans-serif;
   color: #333;
   font-weight: 700;
+  line-height: 1.3;
+}
+h1{
+  margin: 50px 0 40px 0;
 }
 
 p, ul, li, div{
@@ -17,7 +21,31 @@ p, ul, li{
   /*text-align: justify;*/
 }
 p, ul{
-  margin-bottom: 1.6em;
+  margin-bottom: 1.5em;
+}
+
+#mark-wrapper{
+  border-bottom: 1px solid #ededed;
+  padding: 20px 0;
+  height: 50px;
+}
+#mark{
+  /*position: absolute;
+  top: 20px;
+  left: 20px;*/
+
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+}
+#mark img{
+  width: 40px;
+  opacity: .2;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+#mark:hover img{
+  opacity: 1;
 }
 
 .wrapper{
