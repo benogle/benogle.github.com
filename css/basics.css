@@ -1,36 +1,29 @@
 html, body{
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: chaparral-pro, serif;
 }
-/*
-body {
-  background: transparent url(/images/project_papper.png) repeat;
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "proxima-nova-alt-condensed", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 700;
 }
-.wrapper{
-  -moz-border-radius: 3px;
-  -moz-box-shadow: 0px 0px 5px #888;
-  background: #fff;
-}
-*/
 
 p, ul, li, div{
-  font-weight: 300;
+  font-size: 22px;
+  color: #444;
 }
 p, ul, li{
   line-height: 1.6em;
+  /*text-align: justify;*/
 }
-select{
-  font-weight: 300;
-  font-size: 10pt;
+p, ul{
+  margin-bottom: 1.6em;
 }
 
 .wrapper{
   width: 600px;
   padding: 0px 0px;
   margin: 0 auto;
-}
-
-.wrapper h1{
-  font-size: 2.4em;
 }
 
 /* Index */
@@ -53,9 +46,9 @@ select{
 
 #post .date {
   color: #CCCCCC;
-  font-size: 10pt;
+  font-size: 14px;
   left: -170px;
-  line-height: 26px;
+  line-height: 32px;
   position: absolute;
   text-align: right;
   width: 150px;
