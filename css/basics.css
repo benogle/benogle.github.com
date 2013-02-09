@@ -59,6 +59,8 @@ a#mark{
   text-decoration: none;
 
   -webkit-transition: width .2s ease-in-out;
+  -moz-transition: width .2s ease-in-out;
+  -o-transition: width .2s ease-in-out;
   transition: width .2s ease-in-out;
 }
 a#mark:hover{
@@ -74,6 +76,8 @@ a#mark img{
   width: 40px;
   opacity: .2;
   -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
   transition: opacity .2s ease-in-out;
 }
 a#mark:hover img{
@@ -163,6 +167,12 @@ a#mark:hover img{
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p, ul, li, div{
+    font-size: 20px;
   }
 }
 
