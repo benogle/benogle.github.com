@@ -68,6 +68,10 @@ a#mark:hover img{
   margin: 0 auto;
 }
 
+#index.wrapper{
+  width: 500px;
+}
+
 /* Index */
 
 /* POSTS */
