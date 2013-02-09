@@ -22,6 +22,7 @@ p, ul, li{
 }
 p, ul{
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 .fancy-and{
@@ -34,6 +35,9 @@ p, ul{
   width: 600px;
   padding: 0px 0px;
   margin: 0 auto;
+}
+.wrapper img{
+  width: 100%;
 }
 
 /* Nav/Heading */
@@ -130,5 +134,35 @@ a#mark:hover img{
 
 #comments{ padding: 1px 0; }
 
-
 #dsq-footer{ display: none; }
+
+@media screen and (max-width: 760px) {
+  #post .date{
+    left: 0;
+    right: auto;
+    text-align: left;
+    width: auto;
+    top: -47px;
+  }
+  #post .posts .date{
+    position: static;
+  }
+  .about-block{
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about-block img {
+    /* NO FACE FOR THE MOBILE USERS. NOPE. */
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper, #index.wrapper{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
