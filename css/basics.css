@@ -1,6 +1,7 @@
 html, body{
   font-family: chaparral-pro, serif;
 }
+body{ padding-bottom: 50px; }
 
 h1, h2, h3, h4, h5, h6{
   font-family: "proxima-nova-alt-condensed", Helvetica, Arial, sans-serif;
