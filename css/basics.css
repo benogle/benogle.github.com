@@ -124,7 +124,7 @@ a#mark:hover img{
   border-bottom: 1px solid #ededed;
   font-size: 19px;
   color: #8f8f8f;
-  margin: 50px auto 20px auto;
+  margin: 50px auto 50px auto;
   padding: 30px 0 30px 0;
   width: 760px;
 }
@@ -137,7 +137,16 @@ a#mark:hover img{
   border-radius: 80px;
 }
 
-#comments{ padding: 1px 0; }
+.twitter-wrapper{
+  text-align: center;
+}
+.twitter-share-button{
+  position: absolute;
+  right: -115px;
+  bottom: 10px;
+}
+
+#comments{ padding: 1px 0; position: relative; }
 
 #dsq-footer{ display: none; }
 
@@ -161,6 +170,10 @@ a#mark:hover img{
     /* NO FACE FOR THE MOBILE USERS. NOPE. */
     display: none;
   }
+
+  .twitter-share-button{
+    right: 0; bottom: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -168,6 +181,12 @@ a#mark:hover img{
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .twitter-share-button{
+    position: static;
+  }
+  .twitter-wrapper{
+    text-align: center;
   }
 }
 
