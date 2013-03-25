@@ -26,6 +26,16 @@ p, ul{
   margin-top: 1.5em;
 }
 
+p.pause{
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+}
+p.thanks{
+  color: #8f8f8f;
+  font-size: 19px;
+  font-style: italic;
+}
+
 .fancy-and{
   font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
   font-style: italic;
