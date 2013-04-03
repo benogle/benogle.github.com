@@ -57,9 +57,7 @@ I have been lucky enough to watch a number of my YC batchmates do an amazing job
 
 ### Vayable
 
-[Vayable][vayable] connects tourists with locals who will provide experiences. Think: AirBnB for travel activities. As an example, maybe you're headed to San Francisco and looking for [things to do][thingstodo]. Vayable’s [Jamie Wong][jamietwitter] wanted to go anywhere in the world and be able to have someone local show her all the interesting nooks.
-
-https://www.vayable.com/san-francisco
+[Vayable][vayable] connects tourists with locals who will provide experiences. Think: AirBnB for travel activities. As an example, maybe you're headed to the bay area looking for [things to do in San Francisco][thingstodo]. Vayable’s [Jamie Wong][jamietwitter] wanted to go anywhere in the world and be able to have someone local show her all the interesting nooks.
 
 For months, Vayable's tech piece consisted of only a wordpress blog. She started locally in San Francisco and her first step was finding tour guides. All of the work was in pounding the local pavement. She hit up friends, friends of friends, and travel bloggers to be guides in SF. She even hosted meetups to find interesting people.
 
