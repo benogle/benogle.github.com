@@ -5,12 +5,10 @@ description: Ben Ogle writes code in San Francisco for Easel.io
 keywords: Ben Ogle, Easel
 ---
 
-Ben is a compulsive creator. He has way more ideas than he does time to pursue
-them. Are they good ideas? Only time will tell. Generally, he makes businessey
-things, an exception being this epic website. But he secretly wishes he was a
-designer, musician, or artist so he could create beauty that makes you emote.
+I'm a bit of a compulsive creator. I usually have way more ideas than I do time to pursue them. Are they good ideas? Only time will tell.
 
-Ben is a co-founder of [Easel.io](http://easel.io). He does design and writes
-the code for Easel's drawing interface.
+I currently work on [Atom](http://atom.io) at [GitHub](http://github.com). Nearly everyting I do is in the open and visible on my [GitHub page](http://github.com/benogle).
 
-You can <a href="mailto:human@benogle.com">email him</a>.
+Previously, I was a Founder of [Easel.io](http://easel.io), which was acquired by GitHub at the end of 2013. I designed and wrote Easel's drawing interface.
+
+You can <a href="mailto:human@benogle.com">email me</a>.
