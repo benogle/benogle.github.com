@@ -9,7 +9,7 @@ keywords: San Francisco
 
 [My little map of interesting things](https://drive.google.com/open?id=1ZP441urElJES3hI4J9ndfxsDaUQ&usp=sharing)
 
-I live in SOMA, and spend nearly all of my time in the Mission, SOMA, Hayes Valley, the Castro, and lately, the Tenderloin. I rarely go to the north end of the city, and almost never to the west part of the city. So my recommendations will be pretty heavy on those neighborhoods.
+I live in SOMA, and spend nearly all of my time in the Mission, SOMA, Hayes Valley, the Castro, and lately, the Tenderloin. I rarely go to the north end of the city, and almost never get to the west part of the city. So my recommendations will be pretty heavy on those neighborhoods I frequent.
 
 ## Weather
 
