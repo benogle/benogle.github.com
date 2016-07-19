@@ -5,13 +5,9 @@ description: A little guide to visiting San Francisco
 keywords: San Francisco
 ---
 
-# Visiting San Francisco
-
 ![san-francisco-neighborhood-map](https://cloud.githubusercontent.com/assets/69169/16938692/6aad34c2-4d2f-11e6-9415-a94974e8f06b.jpg)
 
-My little map of interesting things:
-
-https://drive.google.com/open?id=1ZP441urElJES3hI4J9ndfxsDaUQ&usp=sharing
+[My little map of interesting things](https://drive.google.com/open?id=1ZP441urElJES3hI4J9ndfxsDaUQ&usp=sharing)
 
 I live in SOMA, and spend nearly all of my time in the Mission, SOMA, Hayes Valley, the Castro, and lately, the Tenderloin. I rarely go to the north end of the city, and almost never to the west part of the city. So my recommendations will be pretty heavy on those neighborhoods.
 
@@ -31,8 +27,8 @@ I'll recommend my fav places, but there are thousands or restaurants, and probab
 * The public transit within SF is pretty terrible unless you take one of the underground trains, but they are basically limited to the mission and downtown / soma. The buses are bleh (with the exception of the 30 and 45 from downtown to north beach which are an interesting cultural experience)
 * There is a trolly called the "F Market" that runs down Market St (the main street in SF) from the Castro to the water. It's got super old trolly cars (some of them from Milan!) and is pretty fun
 * We uber or lyft everywhere in the city. Use "lyft line" or "uber pool" for max cheapness. Rides in the city are usually like $5 - $6. I think you can get a free ride or 2 if you use my promo codes
-  * lyft: https://lyft.com/idi/BEN2544
-  * uber ($20 off the first ride): https://www.uber.com/invite/x4j9h
+  * [sign up for lyft](https://lyft.com/idi/BEN2544)
+  * [sign up for uber](https://www.uber.com/invite/x4j9h) ($20 off the first ride)
 
 ## Stuff to see / do
 
