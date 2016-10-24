@@ -8,18 +8,17 @@ keywords: Ben Ogle
 Current
 -------
 
-Right now, I'm into tools for designers. [Easel.io](http://easel.io) is my big
-project. It doesnt leave much time for other projects.
+[Guitar Panda](http://guitarpanda.com) &mdash; I've been messing with my guitars a lot lately and put up a little site to help you understand and dig into your guitar.
 
 Old
 ---
 
+The last big side project was a web design tool in the browser: [Easel.io](http://easel.io). It turned into a company and we eventually sold it to GitHub (2013).
+
 I've written a number of webapps: version control for designers (2011), a tiny
 way to share contacts rather than business cards (2010), a project management
 app (basecamp-like; 2009), image bookmarking before pinterest (2008,2009),
-classifieds with yardsales scraped from craigslist and mapped (2009),
-[Quaid](http://github.com/benogle/quaid), a small js lib to build widgets and
-stateful jQuery plugins, etc. None of them are live anymore.
+classifieds with yardsales scraped from craigslist and mapped (2009), etc. None of them are live anymore.
 
 Still out there are:
 
