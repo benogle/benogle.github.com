@@ -49,6 +49,6 @@
 
 
 .pageclip-form__success {
-  font-size: 1.5em;
+  font-size: 1.5em !important;
   padding-top: 70px;
 }
