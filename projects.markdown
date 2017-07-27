@@ -15,15 +15,6 @@ Current
 Old
 ---
 
-The last big side project was a web design tool in the browser: [Easel.io](http://easel.io). It turned into a company and we eventually sold it to GitHub (2013).
-
-I've written a number of webapps: version control for designers (2011), a tiny
-way to share contacts rather than business cards (2010), a project management
-app (basecamp-like; 2009), image bookmarking before pinterest (2008,2009),
-classifieds with yardsales scraped from craigslist and mapped (2009), etc. None of them are live anymore.
-
-Still out there are:
-
 [Atom](https://atom.io) &mdash; At GitHub I worked on Atom and Electron for a couple years. I worked on everything from writing the features people love to complain about to making stickers, t-shirts, and even a little [video](https://youtu.be/Y7aEiVwBAdk).
 
 [BRE: Ben's ROM Editor](/projects/bre.html) &mdash; BRE allows a user to
@@ -34,3 +25,10 @@ Honda.
 
 [Eddy: the turbo, CRV powered EF Civic](/projects/eddy.html) &mdash; Once upon
 a time I was a Honda nerd. This car was my fun/autocross beater.
+
+The last big side project was a web design tool in the browser: [Easel.io](http://easel.io). It turned into a company and we eventually sold it to GitHub (2013).
+
+I've written a number of webapps: version control for designers (2011), a tiny
+way to share contacts rather than business cards (2010), a project management
+app (basecamp-like; 2009), image bookmarking before pinterest (2008,2009),
+classifieds with yardsales scraped from craigslist and mapped (2009), etc. None of them are live anymore.
