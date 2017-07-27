@@ -1,0 +1,16 @@
+.button {
+  color: white;
+  background: #222;
+  padding: 8px 12px;
+  font-family: chaparral-pro, serif;
+  border: none;
+}
+
+.button:focus,
+.button:active {
+  outline: none;
+}
+
+.button[disabled] {
+  background: #aaa;
+}

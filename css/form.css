@@ -1,0 +1,54 @@
+.form * {
+  box-sizing: border-box;
+}
+
+.form input,
+.form textarea,
+.form select {
+  font-family: chaparral-pro, serif;
+  width: 100%;
+  transition: all .2s ease;
+}
+
+.form label {
+  display: block;
+  font-size: .8em;
+}
+
+.form input,
+.form select,
+.form textarea {
+  border: 2px solid #ccc;
+  padding: 8px 10px;
+  background: white;
+  border-radius: 0;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border: 2px solid #222;
+  outline: 0;
+}
+
+.form input::placeholder {
+  color: #aaa;
+}
+
+.form select {
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 12px 8px;
+  background-image: url('/images/site/triangle.png');
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.pageclip-form__success {
+  font-size: 1.5em;
+  padding-top: 70px;
+}
