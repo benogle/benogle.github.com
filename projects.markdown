@@ -24,6 +24,8 @@ classifieds with yardsales scraped from craigslist and mapped (2009), etc. None 
 
 Still out there are:
 
+[Atom](https://atom.io) &mdash; At GitHub I worked on Atom and Electron for a couple years. I worked on everything from writing the features people love to complain about to making stickers, t-shirts, and even a little [video](https://youtu.be/Y7aEiVwBAdk).
+
 [BRE: Ben's ROM Editor](/projects/bre.html) &mdash; BRE allows a user to
 modify and monitor the ECU parameters of their Honda's engine in real-time.
 This project combines reverse engineering of an obscure platform, assembly
