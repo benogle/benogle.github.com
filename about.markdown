@@ -16,7 +16,7 @@ Before Atom, I was a Founder of [Easel.io](http://easel.io), which was acquired 
 ## Contact me
 
 <div class="contact-form">
-  <form action="https://pageclip.co/send/39QJaRf6wE5EYbNALen8k0cvjwFmQCbF/contact" class="pageclip-form form" method="post">
+  <form action="https://send.pageclip.co/39QJaRf6wE5EYbNALen8k0cvjwFmQCbF/contact" class="pageclip-form form" method="post">
 
     <div class="form-group">
       <label for="email">Your Email</label>
@@ -52,5 +52,5 @@ Before Atom, I was a Founder of [Easel.io](http://easel.io), which was acquired 
     </div>
   </form>
 </div>
-<script src="https://pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <!-- orrrrrrr you can email me at human@benogle.com -->
