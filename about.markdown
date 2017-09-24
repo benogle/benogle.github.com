@@ -20,13 +20,13 @@ Before Atom, I was a Founder of [Easel.io](http://easel.io), which was acquired 
 
     <div class="form-group">
       <label for="email">Your Email</label>
-      <input type="email" name="email" id="email" placeholder="you@omg.com"/>
+      <input type="email" name="email" id="email" placeholder="you@omg.com" required />
     </div>
 
     <div class="form-group">
       <label for="dinosaur">Favorite Dinosaur</label>
-      <select name="dinosaur" id="dinosaur">
-        <option value="dunno">Pick!</option>
+      <select name="dinosaur" id="dinosaur" required>
+        <option value="">Pick!</option>
         <option value="Allosaurus">Allosaurus</option>
         <option value="Brachiosaurus">Brachiosaurus</option>
         <option value="Diplodocus">Diplodocus</option>
@@ -44,11 +44,15 @@ Before Atom, I was a Founder of [Easel.io](http://easel.io), which was acquired 
 
     <div class="form-group">
       <label for="body">What's up?</label>
-      <textarea name="body" id="body" rows="4"></textarea>
+      <textarea name="body" id="body" rows="4" required></textarea>
     </div>
 
     <div class="form-group">
-      <button type="submit" class="button">Send</button>
+      <button type="submit" class="button pageclip-form__submit">
+        <span>
+          Send
+        </span>
+      </button>
     </div>
   </form>
 </div>
